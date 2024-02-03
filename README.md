@@ -32,7 +32,7 @@ Google Cloud Platform account with necessary permissions.
 Python and pip installed on your local machine.
 
 ## 2. Data Generation
-Use the provided Python scripts (sales_data_generator.py and inventory_data_generator.py) to generate mock data for the sales transactions stream and inventory updates stream.
+Use the provided Python script (sales_and_inv_update_transaction_stream_publisher.py) to generate mock data for the sales transactions stream and inventory updates stream.
 
 Adjust the scripts as needed for your data volume.
 
@@ -41,9 +41,7 @@ Create Pub/Sub topics for sales transactions and inventory updates.
 
 Set up a BigQuery dataset and tables for sales transactions, inventory updates, products, and stores.
 
-Update the Dataflow pipeline script (dataflow_pipeline.py) with your project and dataset details.
-
-Deploy and run the Dataflow pipeline to ingest and process real-time data.
+Deploy and run the Pub/Sub pipeline to ingest and process real-time data.
 
 ## 4. Visualization and Dashboards
 Create a Google Data Studio account.
