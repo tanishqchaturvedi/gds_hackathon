@@ -31,6 +31,12 @@ Google Cloud Platform account with necessary permissions.
 
 Python and pip installed on your local machine.
 
+1.1 Install the gcloud library. Run [ pip install google-cloud-pubsub ]
+
+1.2 Authenticate your account by running this command: [ gcloud auth application-default login ]
+
+1.3 Run the sales_and_inv_update_transaction_stream_publisher.py Python Script.
+
 ## 2. Data Generation
 Use the provided Python script (sales_and_inv_update_transaction_stream_publisher.py) to generate mock data for the sales transactions stream and inventory updates stream.
 
