@@ -15,7 +15,7 @@ inv_topic_name = "inventory_topic"
 sales_topic_path = publisher.topic_path(project_id, sales_topic_name)
 inv_topic_path = publisher.topic_path(project_id, inv_topic_name)
 
-
+#Return JSON for sales data
 def generate_sales_transaction():
     transaction_id = f"T{random.randint(1000, 100000)}"
     product_id = f"P{random.randint(501, 510)}"
@@ -32,7 +32,7 @@ def generate_sales_transaction():
         "unit_price": f"{unit_price}",
         "store_id": store_id
     }
-
+#Return JSON for INV Data
 def generate_inventory_update(prod,qty,stor):
     product_id = prod
     timestamp = (datetime.now() - timedelta(days=10)).strftime('%Y-%m-%d %H:%M:%S')
