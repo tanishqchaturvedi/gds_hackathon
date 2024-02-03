@@ -5,6 +5,7 @@ This project aims to develop a real-time data warehousing solution that ingests,
 
 # Architecture
 Please check the gds_data_architecture.eddx file for architecture refrence.
+<img width="762" alt="Screenshot 2024-02-04 at 3 22 52 AM" src="https://github.com/tanishqchaturvedi/gds_hackathon/assets/116352750/20317864-cb58-4f54-b8e3-2061e1a84f75">
 
 The architecture consists of the following components:
 
