@@ -16,7 +16,6 @@ Preloaded Dimensional Data (Products and Stores)
 
 ## Data Ingestion:
 Google Cloud Pub/Sub for real-time data streaming.
-Google Cloud Dataflow for processing and loading data into BigQuery.
 
 ## Data Warehouse:
 Google BigQuery for storing and querying real-time data.
