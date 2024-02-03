@@ -9,7 +9,9 @@ The architecture consists of the following components:
 ## Data Sources:
 
 Stream 1: Sales Transactions Stream.
+
 Stream 2: Inventory Updates Stream.
+
 Preloaded Dimensional Data (Products and Stores)
 
 ## Data Ingestion:
