@@ -4,7 +4,7 @@
 This project aims to develop a real-time data warehousing solution that ingests, processes, and visualizes sales data from Walmart's Black Friday event. The solution provides insights into sales performance, customer behavior, and inventory levels to facilitate data-driven decision-making for inventory management, marketing strategies, and customer experience enhancement.
 
 # Architecture
-Please check the gds_data_architecture.eddx
+Please check the gds_data_architecture.eddx file for architecture refrence.
 
 The architecture consists of the following components:
 
